@@ -1266,6 +1266,15 @@ footer {
     padding-top: 5px
 }
 
+a.fcit {
+    text-decoration: none;
+    transition: color .2s var(--ease);
+}
+
+a.fcit:hover {
+    color: var(--blue) !important;
+}
+
 .fsoc {
     display: flex;
     gap: 7px;
