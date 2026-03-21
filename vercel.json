@@ -1,0 +1,26 @@
+{
+    "redirects": [
+        {
+            "source": "/:path*.html",
+            "destination": "/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/:path*",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "itfixer199.com"
+                }
+            ],
+            "destination": "https://www.itfixer199.com/:path*",
+            "permanent": true
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/:path*",
+            "destination": "/:path*.html"
+        }
+    ]
+}
